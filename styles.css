@@ -1,0 +1,118 @@
+body {
+background-image: url("images/background.png");
+background-repeat:no-repeat;
+background-position:center;
+background-attachment:fixed;
+background-size:cover;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+}
+
+.shelly {
+    width:100%;
+    max-width: 195px;
+    position: relative;  
+    border-radius:50%;
+    margin-top: 100px;
+    border: 5px solid black
+}
+
+h1 {
+    position:relative;
+    font-size:45px;
+    margin:10px 0 65px 0;
+    color:lavender
+   
+    
+}
+
+.Link1 {
+    position:relative;
+    display:inline-block;
+    text-decoration:none;
+    color:lavender;
+    background-color:rgb(125,89,191);
+    border-radius: 25px;
+    font-size:25px;
+    border: 5px solid rgb(125,89,191);
+    margin: 0px 0px 50px 0px;
+    padding: 12px 150px 12px 150px;
+
+}
+
+.Link3 {
+    position:relative;
+    display:inline-block;
+    text-decoration:none;
+    color:lavender;
+    background-color:rgb(125,89,191);
+    border-radius: 25px;
+    font-size:25px;
+    border: 5px solid rgb(125,89,191);
+    margin: 0px 0px 50px 0px;
+    padding: 12px 154.5px 12px 154.5px;
+
+}
+
+.Link2 {
+     position:relative;
+    display:inline-block;
+    text-decoration:none;
+    color:lavender;
+    background-color:rgb(125,89,191);
+    border-radius: 25px;
+    font-size:25px;
+    border: 5px solid rgb(125,89,191);
+    margin: 0px 0px 50px 0px;
+    padding: 12px 160px 12px 160px;
+ 
+}
+.Link4 {
+    position:relative;
+    display:inline-block;
+    text-decoration:none;
+    color:lavender;
+    background-color:rgb(125,89,191);
+    border-radius: 25px;
+    font-size:24px;
+    border: 5px solid rgb(125,89,191);
+    margin: 0px 0px 50px 0px;
+    padding: 15px 134px 15px 134px;
+    
+}
+  
+@media (max-width: 450px) {
+    .shelly {
+    margin-top: 55px;
+    width: 100%;
+    max-width: 175px;
+
+    }
+    h1 {
+        margin: 20px 0px 35px 0px; 
+        font-size: 42px;
+    }
+    .Link1 {
+       margin: 0px 0px 25px 0px; 
+       padding: 11px 120px 11px 120px;
+    }
+    .Link3 {
+        margin: 10px 0px 35px 0px;
+        padding: 11px 123px 11px 123px;
+    }
+    .Link2 {
+        margin: 0px 0px 35px 0px;
+        padding: 12px 130px 12px 130px;
+    }
+    .Link4 {
+        font-size:17px;
+        padding: 15px 122px 15px 122px;
+    }
+
+}
+
+
+
